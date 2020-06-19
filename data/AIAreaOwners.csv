@@ -1,0 +1,21 @@
+﻿Area,PM,PM Email,Dev,Dev Email
+Adoption,Adoption PM,adoppm@microsoft.com; ,Adoption Dev,adopdev@microsoft.com; 
+AutoML,AutoML PM,autopm@microsoft.com; ,AutoML dev,automldev@microsoft.com; 
+UI Team,UI PM,uipm@microsoft.com; ,UI Dev,uidev@microsoft.com; 
+Data Team,Data PM,datapm@microsoft.com; ,Data Dev,datadev@microsoft.com; 
+Experiment,Exp PM,exppm@microsoft.com; ,expdev,expdev@microsoft.com; 
+Infra Team,Infra PM,infrapm@microsoft.com; ,Infra Dev,infradev@microsoft.com; 
+ML Team,ML PM,mlpm@microsoft.com; ,ML Dev,mldev@microsoft.com; 
+PM,PM Team,omteam@microsoft.com; ,,
+Responsible,Resp PM,resppm@microsoft.com; ,Resp Dev,respdev@microsoft.com; 
+Training Team,Train PM,trainpm@microsoft.com; ,Train Dev,traindev@microsoft.com; 
+Face Team,Face PM,facepm@microsoft.com,Face Dev,facedev@microsoft.com
+Vision Team,Vision Dev,visionpm@microsoft.com,Vision Dev,visiondev@microsoft.com
+Recognizer,Rec PM,recpm@microsoft.com,Rec Dev,Recdev@microsoft.com
+Indexer,Index PM,,Indexer Dev,
+Speech ,Speech PM,speechpm@microsoft.com,Speech Dev,speechdev@microsoft.com
+LUIS,Luis PM,,Luis Dev,luisdev@microsoft.com
+Maker,Maker PM,,Maker Dev,
+Reader,Reader PM,,Read Dev,
+Detector,Detector PM,,Detector Dev,
+Moderator,Moderator PM,,Moderator Dev,

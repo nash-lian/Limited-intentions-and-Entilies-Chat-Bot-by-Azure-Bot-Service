@@ -1,0 +1,379 @@
+{
+  "luis_schema_version": "7.0.0",
+  "intents": [
+    {
+      "name": "AIAreaList",
+      "features": []
+    },
+    {
+      "name": "Cancel",
+      "features": []
+    },
+    {
+      "name": "None",
+      "features": []
+    },
+    {
+      "name": "QueryOwner",
+      "features": []
+    }
+  ],
+  "entities": [],
+  "hierarchicals": [],
+  "composites": [],
+  "closedLists": [
+    {
+      "name": "Area",
+      "subLists": [
+        {
+          "canonicalForm": "Adoption",
+          "list": [
+            "adoption",
+            "adoption team"
+          ]
+        },
+        {
+          "canonicalForm": "AutoML",
+          "list": [
+            "automl",
+            "automl team"
+          ]
+        },
+        {
+          "canonicalForm": "UI Team",
+          "list": [
+            "UI",
+            "ui team"
+          ]
+        },
+        {
+          "canonicalForm": "Data Team",
+          "list": [
+            "data team"
+          ]
+        },
+        {
+          "canonicalForm": "Experiment",
+          "list": [
+            "experiment",
+            "experiment team"
+          ]
+        },
+        {
+          "canonicalForm": "Infra Team",
+          "list": [
+            "Infra",
+            "infra team"
+          ]
+        },
+        {
+          "canonicalForm": "ML Team",
+          "list": [
+            "ml team",
+            "ML"
+          ]
+        },
+        {
+          "canonicalForm": "PM",
+          "list": [
+            "pm",
+            "pm team"
+          ]
+        },
+        {
+          "canonicalForm": "Responsible",
+          "list": [
+            "responsible",
+            "responsible team"
+          ]
+        },
+        {
+          "canonicalForm": "Training Team",
+          "list": [
+            "training team"
+          ]
+        },
+        {
+          "canonicalForm": "Face Team",
+          "list": [
+            "face",
+            "face team"
+          ]
+        },
+        {
+          "canonicalForm": "Vision Team",
+          "list": [
+            "Vision",
+            "vision team"
+          ]
+        },
+        {
+          "canonicalForm": "Recognizer",
+          "list": [
+            "recognizer team",
+            "recognizer"
+          ]
+        },
+        {
+          "canonicalForm": "Indexer",
+          "list": [
+            "indexer",
+            "indexer team"
+          ]
+        },
+        {
+          "canonicalForm": "Speech ",
+          "list": [
+            "speech team",
+            "speech"
+          ]
+        },
+        {
+          "canonicalForm": "LUIS",
+          "list": [
+            "luis",
+            "luis team"
+          ]
+        },
+        {
+          "canonicalForm": "Maker",
+          "list": [
+            "maker team",
+            "maker"
+          ]
+        },
+        {
+          "canonicalForm": "Reader",
+          "list": [
+            "reader",
+            "reader team"
+          ]
+        },
+        {
+          "canonicalForm": "Detector",
+          "list": [
+            "detector",
+            "detector team"
+          ]
+        },
+        {
+          "canonicalForm": "Moderator",
+          "list": [
+            "moderator",
+            "moderator team"
+          ]
+        }
+      ],
+      "roles": []
+    }
+  ],
+  "prebuiltEntities": [],
+  "utterances": [
+    {
+      "text": "any choice?",
+      "intent": "AIAreaList",
+      "entities": []
+    },
+    {
+      "text": "automl",
+      "intent": "QueryOwner",
+      "entities": []
+    },
+    {
+      "text": "bye",
+      "intent": "Cancel",
+      "entities": []
+    },
+    {
+      "text": "cancel",
+      "intent": "Cancel",
+      "entities": []
+    },
+    {
+      "text": "contact for maker?",
+      "intent": "QueryOwner",
+      "entities": []
+    },
+    {
+      "text": "detector team",
+      "intent": "QueryOwner",
+      "entities": []
+    },
+    {
+      "text": "dev team for reader",
+      "intent": "QueryOwner",
+      "entities": []
+    },
+    {
+      "text": "exit",
+      "intent": "Cancel",
+      "entities": []
+    },
+    {
+      "text": "experiment",
+      "intent": "QueryOwner",
+      "entities": []
+    },
+    {
+      "text": "face team",
+      "intent": "QueryOwner",
+      "entities": []
+    },
+    {
+      "text": "give the list of all ai areas.",
+      "intent": "AIAreaList",
+      "entities": []
+    },
+    {
+      "text": "i don't know their name. show me what you have.",
+      "intent": "AIAreaList",
+      "entities": []
+    },
+    {
+      "text": "i don't need the info",
+      "intent": "Cancel",
+      "entities": []
+    },
+    {
+      "text": "i forget the name. please remind me",
+      "intent": "AIAreaList",
+      "entities": []
+    },
+    {
+      "text": "i want to know the contact of luis dev team",
+      "intent": "QueryOwner",
+      "entities": []
+    },
+    {
+      "text": "ignore",
+      "intent": "Cancel",
+      "entities": []
+    },
+    {
+      "text": "indexer team",
+      "intent": "QueryOwner",
+      "entities": []
+    },
+    {
+      "text": "list all areas",
+      "intent": "AIAreaList",
+      "entities": []
+    },
+    {
+      "text": "list all teams, please",
+      "intent": "AIAreaList",
+      "entities": []
+    },
+    {
+      "text": "luis",
+      "intent": "QueryOwner",
+      "entities": []
+    },
+    {
+      "text": "moderator team",
+      "intent": "QueryOwner",
+      "entities": []
+    },
+    {
+      "text": "need to know more about responsible team",
+      "intent": "QueryOwner",
+      "entities": []
+    },
+    {
+      "text": "please tell me the contact for vision team",
+      "intent": "QueryOwner",
+      "entities": []
+    },
+    {
+      "text": "pm team, please",
+      "intent": "QueryOwner",
+      "entities": []
+    },
+    {
+      "text": "quit",
+      "intent": "Cancel",
+      "entities": []
+    },
+    {
+      "text": "recognizer, please",
+      "intent": "QueryOwner",
+      "entities": []
+    },
+    {
+      "text": "see you",
+      "intent": "Cancel",
+      "entities": []
+    },
+    {
+      "text": "show me the choice of all areas",
+      "intent": "AIAreaList",
+      "entities": []
+    },
+    {
+      "text": "speech team",
+      "intent": "QueryOwner",
+      "entities": []
+    },
+    {
+      "text": "vision team",
+      "intent": "QueryOwner",
+      "entities": []
+    },
+    {
+      "text": "what do we have?",
+      "intent": "AIAreaList",
+      "entities": []
+    },
+    {
+      "text": "what is azure ai?",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "what is the choice?",
+      "intent": "AIAreaList",
+      "entities": []
+    },
+    {
+      "text": "who are you",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "who can help me on adoption?",
+      "intent": "QueryOwner",
+      "entities": []
+    },
+    {
+      "text": "who is manager",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "who is the contact for face team?",
+      "intent": "QueryOwner",
+      "entities": []
+    },
+    {
+      "text": "who is the contact for vision team?",
+      "intent": "QueryOwner",
+      "entities": []
+    }
+  ],
+  "versionId": "0.1",
+  "name": "AIAreaOwner",
+  "desc": "Find the owner for Azure AI feature",
+  "culture": "en-us",
+  "tokenizerVersion": "1.0.0",
+  "patternAnyEntities": [],
+  "regex_entities": [],
+  "phraselists": [],
+  "regex_features": [],
+  "patterns": [],
+  "settings": [
+    {
+      "name": "NormalizeWordForm",
+      "value": "true"
+    }
+  ]
+}
